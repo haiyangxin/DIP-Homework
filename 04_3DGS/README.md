@@ -31,6 +31,7 @@ You can also download the video of the reconstructed scene from the website.
 The following results are obtained after training for 200 epochs on the chair dataset
 ![reconstruction](results/debug_rendering.gif)  <!-- This is a GIF animation of the reconstructed scene -->
 ### Some pictures
+下面分别是训练0，50，100，150，199个epoch后在r_74上的结果
 ![image](results/r_74_epoch_0.png)
 ![image](results/r_74_epoch_50.png)
 ![image](results/r_74_epoch_100.png)
