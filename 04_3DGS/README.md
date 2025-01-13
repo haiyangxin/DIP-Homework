@@ -24,14 +24,15 @@ python train.py --colmap_dir data/chair --checkpoint_dir data/chair/checkpoints
 You can download pretrained models here:
 - [My awesome model](https://rec.ustc.edu.cn/share/dd7bf1c0-d1b9-11ef-9fe4-75b944d6a870)
 - 提取码：0000
-
+Or download directly from the checkpoints folder
 You can also download the video of the reconstructed scene from the website.
 
 ## Results
 The following results are obtained after training for 200 epochs on the chair dataset
 ![reconstruction](results/debug_rendering.gif)  <!-- This is a GIF animation of the reconstructed scene -->
 ### Some pictures
-下面分别是训练0，50，100，150，199个epoch后在r_74上的结果
+The following are the results on r_74 after training for 0, 50, 100, 150, and 199 epochs respectively.
+
 ![image](results/r_74_epoch_0.png)
 ![image](results/r_74_epoch_50.png)
 ![image](results/r_74_epoch_100.png)
